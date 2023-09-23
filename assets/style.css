@@ -1,0 +1,27 @@
+.bg-success {
+    background-color: rgb(114, 210, 114) !important;
+}
+
+.jumbotron-bg {
+    background-image: url('img/bg-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: max-content;
+}
+
+.section-hello {
+    padding: 20px;
+    opacity: 80%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+    .section-hello {
+        padding: 100px;
+        opacity: 80%;
+        background-color: black;
+        border-radius: 30px;
+    }
+}
